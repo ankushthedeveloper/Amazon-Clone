@@ -9,6 +9,7 @@
 
 body {
   background-color: #dadada;
+  min-width: 500px;
 }
 a {
   text-decoration: none;
@@ -331,7 +332,33 @@ footer{
   }
 }
 
-@media only screen and (max-width:560px) {
+.youtube{
+  margin: 50px;
+  width: 80%;
+}
+
+@media only screen and (max-width:566px) {
+ .all{
+  display: none;
+ }
+ .nav{
+  max-width: unset;
+ }
+
+}
 
 
+@media only screen and (max-width:380px){
+  .control_next{
+    right: -130px;
+  }
+  .header-img{
+    width: 120%;
+  }
+  .box-col{
+    max-width: 25%;
+  }
+  .nav{
+    padding-top: 10px;
+  }
 }

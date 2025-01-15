@@ -244,3 +244,36 @@ body {
 .product-footer{
     margin-top: 50px;
 }
+
+@media only screen and (max-width:500px){
+   .product-display{
+    flex-direction: column;
+   }
+   .color-options{
+    overflow-x: scroll;
+    &::-webkit-scrollbar{
+      display: none;
+    }
+     width: 100px;
+   }
+   .nav{
+    min-width: 400px;
+   }
+   .product-d-purchage{
+    position: relative;
+    left: 10%;
+    max-width: 80%;
+    margin: 30px;
+   }
+
+   .product-main-image img{
+    width: 300px;
+    border: 1px solid #7ad6bc;
+    padding: 5px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 30px;
+   }
+   
+}
+  
